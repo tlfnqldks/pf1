@@ -1,0 +1,86 @@
+header{
+    
+  /*! background-color: #eee; */
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+header div.wrap{
+    
+  width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+header h1{
+    
+}
+header h1 a{
+  background-image: url(../img/hk_logo.png);
+  width: 230px;
+  height: 25px;
+  display: block;
+  font-size: 0;
+}
+header ul.gnb{
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+header ul.gnb li{
+  width: 20%;
+  /*! border: 1px solid; */
+  text-align: center;
+}
+header ul.gnb li a{
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  /*! border: 1px solid; */
+  line-height: 3;
+  border-top:1px solid #ccc;
+  /*! border-top:1px solid transparent; */
+  transition: all 0.5s;
+}
+header ul.gnb li a:hover{
+    color:#00a0c6;
+    display: block;
+    border-top:1px solid #00a0c6;
+}
+header ul.enb{
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: -23px;
+  font-size: 11px;
+  /*! gap: 15px; */
+}
+header ul.enb li{
+  /*! padding: 0 5px; */
+}
+header ul.enb li a{
+  padding: 0 3px;
+  line-height: 0.7;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+header ul.enb li a:hover{
+  color:orange;
+}
+header ul.enb li:nth-child(1) a{
+  
+}
+header ul.enb li:nth-child(1) a::after{
+  content: "▼";
+  margin-left: 6px;
+  /*! color: #666; */
+}
+header ul.enb li:nth-child(2) a{
+  
+}
+header ul.enb li:nth-child(2) a::before{
+  content: "I";
+  padding-right: 6px;
+  color: #666;
+}
